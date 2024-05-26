@@ -30,3 +30,6 @@ for i in range(4):
 plt.tight_layout()
 plt.suptitle("各个属性与房价的关系", x=0.5, y=1.02, fontsize=20)
 plt.show()
+
+aa = np.arange(7)
+print(aa.dtype)
